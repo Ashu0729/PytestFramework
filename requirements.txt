@@ -1,0 +1,6 @@
+selenium
+pytest
+pytest-cov
+pytest-xdist
+pytest-mock
+
