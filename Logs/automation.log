@@ -55,3 +55,44 @@
 10/07/2025 10:41:21 AM: INFO: ********** started TestLoginPage: test_login with adm@yourstore.com **********
 10/07/2025 10:41:26 AM: INFO: ********** ending TestLoginPage: test_login with admin@yourstore.com **********
 10/07/2025 10:41:35 AM: INFO: ********** ending TestLoginPage: test_login with adm@yourstore.com **********
+10/07/2025 12:01:03 PM: INFO: ********** started TestAddCustomer: test_login **********
+10/07/2025 12:01:08 PM: INFO: ********** Login Success **********
+10/07/2025 12:01:08 PM: INFO: ********** Start Adding Customer **********
+10/07/2025 12:12:50 PM: INFO: ********** started TestAddCustomer: test_login **********
+10/07/2025 12:12:55 PM: INFO: ********** Login Success **********
+10/07/2025 12:12:55 PM: INFO: ********** Start Adding Customer **********
+10/07/2025 12:17:36 PM: INFO: ********** started TestAddCustomer: test_login **********
+10/07/2025 12:17:41 PM: INFO: ********** Login Success **********
+10/07/2025 12:17:41 PM: INFO: ********** Start Adding Customer **********
+10/07/2025 12:19:08 PM: INFO: ********** started TestAddCustomer: test_login **********
+10/07/2025 12:19:12 PM: INFO: ********** Login Success **********
+10/07/2025 12:19:12 PM: INFO: ********** Start Adding Customer **********
+10/07/2025 12:20:24 PM: INFO: ********** started TestAddCustomer: test_login **********
+10/07/2025 12:20:27 PM: INFO: ********** Login Success **********
+10/07/2025 12:20:27 PM: INFO: ********** Start Adding Customer **********
+10/07/2025 12:25:32 PM: INFO: ********** started TestAddCustomer: test_login **********
+10/07/2025 12:25:36 PM: INFO: ********** Login Success **********
+10/07/2025 12:25:36 PM: INFO: ********** Start Adding Customer **********
+10/07/2025 12:25:54 PM: INFO: ********** Customer Added **********
+10/07/2025 12:27:53 PM: INFO: ********** started TestAddCustomer: test_login **********
+10/07/2025 12:27:58 PM: INFO: ********** Login Success **********
+10/07/2025 12:27:58 PM: INFO: ********** Start Adding Customer **********
+10/07/2025 12:28:09 PM: INFO: ********** Customer Added **********
+10/07/2025 12:28:09 PM: INFO: ********** Success message validated: ×
+The new customer has been added successfully. **********
+10/07/2025 12:34:40 PM: INFO: ********** started TestAddCustomer: test_login **********
+10/07/2025 12:34:44 PM: INFO: ********** Login Success **********
+10/07/2025 12:34:44 PM: INFO: ********** Start Adding Customer **********
+10/07/2025 12:34:55 PM: INFO: ********** Customer Added **********
+10/07/2025 12:34:55 PM: INFO: ********** Success message validated: ×
+The new customer has been added successfully. **********
+10/07/2025 12:36:03 PM: INFO: ********** started TestAddCustomer: test_login **********
+10/07/2025 12:36:06 PM: INFO: ********** Login Success **********
+10/07/2025 12:36:06 PM: INFO: ********** Start Adding Customer **********
+10/07/2025 12:36:17 PM: INFO: ********** Customer Added **********
+10/07/2025 12:36:44 PM: INFO: ********** started TestAddCustomer: test_login **********
+10/07/2025 12:36:48 PM: INFO: ********** Login Success **********
+10/07/2025 12:36:48 PM: INFO: ********** Start Adding Customer **********
+10/07/2025 12:36:58 PM: INFO: ********** Customer Added **********
+10/07/2025 12:36:59 PM: INFO: ********** Success message validated: ×
+The new customer has been added successfully. **********
