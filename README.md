@@ -57,16 +57,16 @@ A robust and extensible automation framework built primarily using **Pytest** an
    ```
 
 3. **Run tests**
-    ```SingleTest in Edge
+    ``` SingleTest in Edge
     pytest -s -v  --html=./Reports/report.html testCases/test_loginPage.py --browser=Edge    
     ```
-    ```SanityTests in Chrome
+    ``` SanityTests in Chrome
     pytest -s -v -m "sanity" --html=./Reports/report.html testCases --browser=Chrome
     ```
-    ```RegressionTests in Edge
+    ``` RegressionTests in Edge
     pytest -s -v -m "regression" --html=./Reports/report.html testCases --browser=Edge
     ```
-    ```Run tests through Jenkins
+    ``` Run tests through Jenkins
     call "C:\Users\ashut\PycharmProjects\Pytest Framework\.venv\Scripts\activate"
     pytest -s -v --html=./Reports/report.html testCases/test_loginPage.py --browser=Edge   
     ```
