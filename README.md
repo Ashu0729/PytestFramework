@@ -56,16 +56,16 @@ A robust and extensible automation framework built primarily using **Pytest** an
    pip install -r requirements.txt
    ```
 
-3. **Run tests**
-    ```SingleTest in Edge
-    pytest -s -v  --html=./Reports/report.html testCases/test_loginPage.py --browser=Edge    
-    ```
-    ```SanityTests in Chrome
-    pytest -s -v -m "sanity" --html=./Reports/report.html testCases --browser=Chrome
-    ```
-    ```RegressionTests in Edge
-    pytest -s -v -m "regression" --html=./Reports/report.html testCases --browser=Edge
-    ```
+   3. **Run tests**
+       ```SingleTest in Edge
+       pytest -s -v  --html=./Reports/report.html testCases/test_loginPage.py --browser=Edge    
+       ```
+       ```SanityTests in Chrome
+       pytest -s -v -m "sanity" --html=./Reports/report.html testCases --browser=Chrome
+       ```
+       ```RegressionTests in Edge
+       pytest -s -v -m "regression" --html=./Reports/report.html testCases --browser=Edge
+       ```
 ---
 
 ## Directory Structure
