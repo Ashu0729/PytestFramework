@@ -96,3 +96,14 @@ The new customer has been added successfully. **********
 10/07/2025 12:36:58 PM: INFO: ********** Customer Added **********
 10/07/2025 12:36:59 PM: INFO: ********** Success message validated: ×
 The new customer has been added successfully. **********
+10/07/2025 01:07:07 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_email for steve_gates@nopCommerce.com **********
+10/07/2025 01:07:11 PM: INFO: ********** Login Success **********
+10/07/2025 01:07:22 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_email for nonexistentuser@example.com **********
+10/07/2025 01:07:26 PM: INFO: ********** Login Success **********
+10/07/2025 01:07:31 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_email for nonexistentuser@example.com **********
+10/07/2025 01:11:40 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_email for steve_gates@nopCommerce.com **********
+10/07/2025 01:11:43 PM: INFO: ********** Login Success **********
+10/07/2025 01:11:49 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_email for steve_gates@nopCommerce.com **********
+10/07/2025 01:11:54 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_email for nonexistentuser@example.com **********
+10/07/2025 01:11:58 PM: INFO: ********** Login Success **********
+10/07/2025 01:12:02 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_email for nonexistentuser@example.com **********

@@ -21,21 +21,6 @@ class CustomersPage:
     def click_add_new(self):
         self.driver.find_element(*self.ADD_NEW_BUTTON).click()
 
-    def search_by_email(self, email):
-        element = self.driver.find_element(*self.SEARCH_EMAIL)
-        element.clear()
-        element.send_keys(email)
-
-    def search_by_first_name(self, first_name):
-        element = self.driver.find_element(*self.SEARCH_FIRST_NAME)
-        element.clear()
-        element.send_keys(first_name)
-
-    def search_by_last_name(self, last_name):
-        element = self.driver.find_element(*self.SEARCH_LAST_NAME)
-        element.clear()
-        element.send_keys(last_name)
-
     def click_search(self):
         self.driver.find_element(*self.SEARCH_BUTTON).click()
 
@@ -51,11 +36,17 @@ class CustomersPage:
     # Utility: Combine search workflow
     def search_customer(self, email=None, first_name=None, last_name=None):
         if email:
-            self.search_by_email(email)
+            element = self.driver.find_element(*self.SEARCH_EMAIL)
+            element.clear()
+            element.send_keys(email)
         if first_name:
-            self.search_by_first_name(first_name)
+            element = self.driver.find_element(*self.SEARCH_FIRST_NAME)
+            element.clear()
+            element.send_keys(first_name)
         if last_name:
-            self.search_by_last_name(last_name)
+            element = self.driver.find_element(*self.SEARCH_LAST_NAME)
+            element.clear()
+            element.send_keys(last_name)
         self.click_search()
 
     def get_success_message_text(self):
