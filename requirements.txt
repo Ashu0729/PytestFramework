@@ -3,4 +3,4 @@ pytest
 pytest-cov
 pytest-xdist
 pytest-mock
-
+pytest-html
