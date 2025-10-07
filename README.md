@@ -69,7 +69,7 @@ A robust and extensible automation framework built primarily using **Pytest** an
     ```Run tests through Jenkins
     call "C:\Users\ashut\PycharmProjects\Pytest Framework\.venv\Scripts\activate"
     pytest -s -v --html=./Reports/report.html testCases/test_loginPage.py --browser=Edge   
-
+    ```
 ---
 
 ## Directory Structure
