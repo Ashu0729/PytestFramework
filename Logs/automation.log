@@ -207,3 +207,19 @@ The new customer has been added successfully. **********
 10/07/2025 03:46:56 PM: INFO: ********** ending TestLoginPage: test_login_page_title **********
 10/07/2025 03:47:01 PM: INFO: ********** started TestLoginPage: test_login **********
 10/07/2025 03:47:05 PM: INFO: ********** ending TestLoginPage: test_login **********
+10/07/2025 03:53:43 PM: INFO: ********** started TestAddCustomer: test_login **********
+10/07/2025 03:53:48 PM: INFO: ********** Login Success **********
+10/07/2025 03:53:48 PM: INFO: ********** Start Adding Customer **********
+10/07/2025 03:53:59 PM: INFO: ********** Customer Added **********
+10/07/2025 03:53:59 PM: INFO: ********** Success message validated: ×
+The new customer has been added successfully. **********
+10/07/2025 03:54:05 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_email for steve_gates@nopCommerce.com **********
+10/07/2025 03:54:08 PM: INFO: ********** Login Success **********
+10/07/2025 03:54:14 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_email for steve_gates@nopCommerce.com **********
+10/07/2025 03:54:19 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_email for nonexistentuser@example.com **********
+10/07/2025 03:54:23 PM: INFO: ********** Login Success **********
+10/07/2025 03:54:30 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_email for nonexistentuser@example.com **********
+10/07/2025 03:54:35 PM: INFO: ********** started TestLoginPage: test_login_page_title **********
+10/07/2025 03:54:36 PM: INFO: ********** ending TestLoginPage: test_login_page_title **********
+10/07/2025 03:54:41 PM: INFO: ********** started TestLoginPage: test_login **********
+10/07/2025 03:54:45 PM: INFO: ********** ending TestLoginPage: test_login **********
