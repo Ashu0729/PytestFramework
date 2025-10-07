@@ -56,7 +56,7 @@ A robust and extensible automation framework built primarily using **Pytest** an
    pip install -r requirements.txt
    ```
 
-3. **Run tests**
+3. **Run tests Locally**
     ```SingleTest in Edge
     pytest -s -v  --html=./Reports/report.html testCases/test_loginPage.py --browser=Edge    
     ```
@@ -66,6 +66,13 @@ A robust and extensible automation framework built primarily using **Pytest** an
     ```RegressionTests in Edge
     pytest -s -v -m "regression" --html=./Reports/report.html testCases --browser=Edge
     ```
+
+3. **Run tests through Jenkins**
+    ```Create a FreeStyle Project on Jenkins, Provide GitHub URL, and in BuildSteps add the below 2 commands > 
+   call "C:\Users\ashut\PycharmProjects\Pytest Framework\.venv\Scripts\activate"
+   pytest -s -v --html=./Reports/report.html testCases/test_loginPage.py --browser=Edge   
+    ```
+
 ---
 
 ## Directory Structure
