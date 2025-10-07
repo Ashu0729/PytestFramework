@@ -57,13 +57,15 @@ A robust and extensible automation framework built primarily using **Pytest** an
    ```
 
 3. **Run tests**
-   ```bash
-   pytest --browser chrome --html=Reports/report.html
-   ```
-   ```
+    ```SingleTest in Edge
+    pytest -s -v  --html=./Reports/report.html testCases/test_loginPage.py --browser=Edge    
+    ```
+    ```SanityTests in Chrome
     pytest -s -v -m "sanity" --html=./Reports/report.html testCases --browser=Chrome
     ```
-
+    ```RegressionTests in Edge
+    pytest -s -v -m "regression" --html=./Reports/report.html testCases --browser=Edge
+    ```
 ---
 
 ## Directory Structure

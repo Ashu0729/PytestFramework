@@ -223,3 +223,42 @@ The new customer has been added successfully. **********
 10/07/2025 03:54:36 PM: INFO: ********** ending TestLoginPage: test_login_page_title **********
 10/07/2025 03:54:41 PM: INFO: ********** started TestLoginPage: test_login **********
 10/07/2025 03:54:45 PM: INFO: ********** ending TestLoginPage: test_login **********
+10/07/2025 03:57:51 PM: INFO: ********** started TestAddCustomer: test_login **********
+10/07/2025 03:57:55 PM: INFO: ********** Login Success **********
+10/07/2025 03:57:55 PM: INFO: ********** Start Adding Customer **********
+10/07/2025 03:58:06 PM: INFO: ********** Customer Added **********
+10/07/2025 03:58:06 PM: INFO: ********** Success message validated: ×
+The new customer has been added successfully. **********
+10/07/2025 03:58:12 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_email for steve_gates@nopCommerce.com **********
+10/07/2025 03:58:16 PM: INFO: ********** Login Success **********
+10/07/2025 03:58:23 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_email for steve_gates@nopCommerce.com **********
+10/07/2025 03:58:29 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_email for nonexistentuser@example.com **********
+10/07/2025 03:58:32 PM: INFO: ********** Login Success **********
+10/07/2025 03:58:38 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_email for nonexistentuser@example.com **********
+10/07/2025 03:58:44 PM: INFO: ********** started TestCustomerSearch: test_search_multiple_customers **********
+10/07/2025 03:58:48 PM: INFO: ********** Login Success **********
+10/07/2025 03:58:54 PM: INFO: Checked search for steve_gates@nopCommerce.com (should_exist=True)
+10/07/2025 03:58:57 PM: INFO: Checked search for nonexistentuser@example.com (should_exist=False)
+10/07/2025 03:58:57 PM: INFO: ********** completed TestCustomerSearch: test_search_multiple_customers **********
+10/07/2025 03:59:03 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_first_last_name for Steve Gates **********
+10/07/2025 03:59:05 PM: INFO: ********** Login Success **********
+10/07/2025 03:59:13 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_first_last_name for Steve Gates **********
+10/07/2025 03:59:18 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_first_last_name for Nonexistent User **********
+10/07/2025 03:59:21 PM: INFO: ********** Login Success **********
+10/07/2025 03:59:28 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_first_last_name for Nonexistent User **********
+10/07/2025 03:59:34 PM: INFO: ********** started TestLoginPage: test_login_page_title **********
+10/07/2025 03:59:35 PM: INFO: ********** ending TestLoginPage: test_login_page_title **********
+10/07/2025 03:59:41 PM: INFO: ********** started TestLoginPage: test_login **********
+10/07/2025 03:59:44 PM: INFO: ********** ending TestLoginPage: test_login **********
+10/07/2025 03:59:50 PM: INFO: ********** started TestLoginPage: test_login with admin@yourstore.com **********
+10/07/2025 03:59:55 PM: INFO: ********** ending TestLoginPage: test_login with admin@yourstore.com **********
+10/07/2025 04:00:00 PM: INFO: ********** started TestLoginPage: test_login with admin@yourstore.com **********
+10/07/2025 04:00:14 PM: INFO: ********** ending TestLoginPage: test_login with admin@yourstore.com **********
+10/07/2025 04:00:19 PM: INFO: ********** started TestLoginPage: test_login with adm@yourstore.com **********
+10/07/2025 04:00:32 PM: INFO: ********** ending TestLoginPage: test_login with adm@yourstore.com **********
+10/07/2025 04:00:37 PM: INFO: ********** started TestLoginPage: test_login with adm@yourstore.com **********
+10/07/2025 04:00:50 PM: INFO: ********** ending TestLoginPage: test_login with adm@yourstore.com **********
+10/07/2025 04:16:15 PM: INFO: ********** started TestLoginPage: test_login_page_title **********
+10/07/2025 04:16:17 PM: INFO: ********** ending TestLoginPage: test_login_page_title **********
+10/07/2025 04:16:26 PM: INFO: ********** started TestLoginPage: test_login **********
+10/07/2025 04:16:30 PM: INFO: ********** ending TestLoginPage: test_login **********
