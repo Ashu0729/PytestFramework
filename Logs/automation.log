@@ -30,3 +30,28 @@
 10/06/2025 11:20:10 PM: INFO: ********** started TestLoginPage: test_login **********
 10/06/2025 11:20:13 PM: INFO: ********** ending TestLoginPage: test_login_page_title **********
 10/06/2025 11:20:19 PM: INFO: ********** ending TestLoginPage: test_login **********
+10/07/2025 10:27:18 AM: INFO: ********** started TestLoginPage: test_login with asmin@yourstore.com **********
+10/07/2025 10:27:41 AM: INFO: ********** started TestLoginPage: test_login with admin@yourstore.com **********
+10/07/2025 10:27:53 AM: INFO: ********** started TestLoginPage: test_login with adm@yourstore.com **********
+10/07/2025 10:28:13 AM: INFO: ********** started TestLoginPage: test_login with adm@yourstore.com **********
+10/07/2025 10:31:29 AM: INFO: ********** started TestLoginPage: test_login with adm@yourstore.com **********
+10/07/2025 10:31:30 AM: INFO: ********** started TestLoginPage: test_login with admin@yourstore.com **********
+10/07/2025 10:31:47 AM: INFO: ********** started TestLoginPage: test_login with admin@yourstore.com **********
+10/07/2025 10:31:56 AM: INFO: ********** started TestLoginPage: test_login with adm@yourstore.com **********
+10/07/2025 10:33:34 AM: INFO: ********** started TestLoginPage: test_login with adm@yourstore.com **********
+10/07/2025 10:33:36 AM: INFO: ********** started TestLoginPage: test_login with admin@yourstore.com **********
+10/07/2025 10:33:51 AM: INFO: ********** started TestLoginPage: test_login with admin@yourstore.com **********
+10/07/2025 10:34:00 AM: INFO: ********** started TestLoginPage: test_login with adm@yourstore.com **********
+10/07/2025 10:35:04 AM: INFO: ********** started TestLoginPage: test_login with adm@yourstore.com **********
+10/07/2025 10:35:04 AM: INFO: ********** started TestLoginPage: test_login with admin@yourstore.com **********
+10/07/2025 10:35:17 AM: INFO: ********** ending TestLoginPage: test_login with admin@yourstore.com **********
+10/07/2025 10:35:23 AM: INFO: ********** started TestLoginPage: test_login with admin@yourstore.com **********
+10/07/2025 10:35:31 AM: INFO: ********** started TestLoginPage: test_login with adm@yourstore.com **********
+10/07/2025 10:40:53 AM: INFO: ********** started TestLoginPage: test_login with admin@yourstore.com **********
+10/07/2025 10:40:53 AM: INFO: ********** started TestLoginPage: test_login with adm@yourstore.com **********
+10/07/2025 10:41:03 AM: INFO: ********** ending TestLoginPage: test_login with admin@yourstore.com **********
+10/07/2025 10:41:12 AM: INFO: ********** started TestLoginPage: test_login with admin@yourstore.com **********
+10/07/2025 10:41:15 AM: INFO: ********** ending TestLoginPage: test_login with adm@yourstore.com **********
+10/07/2025 10:41:21 AM: INFO: ********** started TestLoginPage: test_login with adm@yourstore.com **********
+10/07/2025 10:41:26 AM: INFO: ********** ending TestLoginPage: test_login with admin@yourstore.com **********
+10/07/2025 10:41:35 AM: INFO: ********** ending TestLoginPage: test_login with adm@yourstore.com **********

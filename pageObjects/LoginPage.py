@@ -1,4 +1,5 @@
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException
 
 
 class LoginPage:
@@ -30,4 +31,7 @@ class LoginPage:
         return self.driver.find_element(*self.LOGO).is_displayed()
 
     def is_gearicon_present(self):
-        return self.driver.find_element(*self.GEAR_ICON).is_displayed()
+        try:
+            return self.driver.find_element(*self.GEAR_ICON).is_displayed()
+        except NoSuchElementException:
+            return False
