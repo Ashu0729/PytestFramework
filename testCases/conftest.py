@@ -10,6 +10,7 @@ def driver(request):
     yield driver  # <-- gives driver to the test
     driver.quit()  # <-- runs after the test, closes browser
 
+
 def pytest_runtest_makereport(item, call):
     if call.when == 'call' and call.excinfo is not None:
         driver = getattr(item, 'driver', None)
