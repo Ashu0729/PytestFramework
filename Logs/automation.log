@@ -107,3 +107,88 @@ The new customer has been added successfully. **********
 10/07/2025 01:11:54 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_email for nonexistentuser@example.com **********
 10/07/2025 01:11:58 PM: INFO: ********** Login Success **********
 10/07/2025 01:12:02 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_email for nonexistentuser@example.com **********
+10/07/2025 01:22:34 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_first_last_name for Steve Gates **********
+10/07/2025 01:22:37 PM: INFO: ********** Login Success **********
+10/07/2025 01:22:48 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_first_last_name for Nonexistent User **********
+10/07/2025 01:22:52 PM: INFO: ********** Login Success **********
+10/07/2025 01:22:56 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_first_last_name for Nonexistent User **********
+10/07/2025 01:26:22 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_email for steve_gates@nopCommerce.com **********
+10/07/2025 01:26:25 PM: INFO: ********** Login Success **********
+10/07/2025 01:26:45 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_email for nonexistentuser@example.com **********
+10/07/2025 01:26:49 PM: INFO: ********** Login Success **********
+10/07/2025 01:26:54 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_email for nonexistentuser@example.com **********
+10/07/2025 01:27:16 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_first_last_name for Steve Gates **********
+10/07/2025 01:27:20 PM: INFO: ********** Login Success **********
+10/07/2025 01:27:32 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_first_last_name for Nonexistent User **********
+10/07/2025 01:27:37 PM: INFO: ********** Login Success **********
+10/07/2025 01:27:41 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_first_last_name for Nonexistent User **********
+10/07/2025 01:30:13 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_first_last_name for Steve Gates **********
+10/07/2025 01:30:17 PM: INFO: ********** Login Success **********
+10/07/2025 01:30:28 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_first_last_name for Nonexistent User **********
+10/07/2025 01:30:31 PM: INFO: ********** Login Success **********
+10/07/2025 01:30:37 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_first_last_name for Nonexistent User **********
+10/07/2025 01:31:53 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_first_last_name for Steve Gates **********
+10/07/2025 01:31:57 PM: INFO: ********** Login Success **********
+10/07/2025 01:32:08 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_first_last_name for Nonexistent User **********
+10/07/2025 01:32:12 PM: INFO: ********** Login Success **********
+10/07/2025 01:32:51 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_email for steve_gates@nopCommerce.com **********
+10/07/2025 01:32:55 PM: INFO: ********** Login Success **********
+10/07/2025 01:33:04 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_email for nonexistentuser@example.com **********
+10/07/2025 01:33:08 PM: INFO: ********** Login Success **********
+10/07/2025 01:33:12 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_email for nonexistentuser@example.com **********
+10/07/2025 01:47:41 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_email for steve_gates@nopCommerce.com **********
+10/07/2025 01:47:44 PM: INFO: ********** Login Success **********
+10/07/2025 01:47:51 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_email for steve_gates@nopCommerce.com **********
+10/07/2025 01:52:58 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_email for steve_gates@nopCommerce.com **********
+10/07/2025 01:53:02 PM: INFO: ********** Login Success **********
+10/07/2025 01:53:09 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_email for steve_gates@nopCommerce.com **********
+10/07/2025 02:55:19 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_first_last_name for Steve Gates **********
+10/07/2025 02:55:23 PM: INFO: ********** Login Success **********
+10/07/2025 03:03:15 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_first_last_name for Steve Gates **********
+10/07/2025 03:03:18 PM: INFO: ********** Login Success **********
+10/07/2025 03:03:25 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_first_last_name for Steve Gates **********
+10/07/2025 03:06:27 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_first_last_name for Steve Gates **********
+10/07/2025 03:06:30 PM: INFO: ********** Login Success **********
+10/07/2025 03:06:37 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_first_last_name for Steve Gates **********
+10/07/2025 03:06:43 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_first_last_name for Nonexistent User **********
+10/07/2025 03:06:46 PM: INFO: ********** Login Success **********
+10/07/2025 03:06:52 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_first_last_name for Nonexistent User **********
+10/07/2025 03:14:28 PM: INFO: ********** started TestCustomerSearch: test_search_multiple_customers **********
+10/07/2025 03:14:31 PM: INFO: ********** Login Success **********
+10/07/2025 03:14:39 PM: INFO: Checked search for steve_gates@nopCommerce.com (should_exist=True)
+10/07/2025 03:14:41 PM: INFO: Checked search for nonexistentuser@example.com (should_exist=False)
+10/07/2025 03:14:41 PM: INFO: ********** completed TestCustomerSearch: test_search_multiple_customers **********
+10/07/2025 03:17:14 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_email for steve_gates@nopCommerce.com **********
+10/07/2025 03:17:18 PM: INFO: ********** Login Success **********
+10/07/2025 03:17:25 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_email for steve_gates@nopCommerce.com **********
+10/07/2025 03:17:31 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_email for nonexistentuser@example.com **********
+10/07/2025 03:17:34 PM: INFO: ********** Login Success **********
+10/07/2025 03:17:41 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_email for nonexistentuser@example.com **********
+10/07/2025 03:17:46 PM: INFO: ********** started TestCustomerSearch: test_search_multiple_customers **********
+10/07/2025 03:17:49 PM: INFO: ********** Login Success **********
+10/07/2025 03:17:56 PM: INFO: Checked search for steve_gates@nopCommerce.com (should_exist=True)
+10/07/2025 03:17:59 PM: INFO: Checked search for nonexistentuser@example.com (should_exist=False)
+10/07/2025 03:17:59 PM: INFO: ********** completed TestCustomerSearch: test_search_multiple_customers **********
+10/07/2025 03:18:04 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_first_last_name for Steve Gates **********
+10/07/2025 03:18:07 PM: INFO: ********** Login Success **********
+10/07/2025 03:18:13 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_first_last_name for Steve Gates **********
+10/07/2025 03:18:19 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_first_last_name for Nonexistent User **********
+10/07/2025 03:18:21 PM: INFO: ********** Login Success **********
+10/07/2025 03:18:28 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_first_last_name for Nonexistent User **********
+10/07/2025 03:26:19 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_email for steve_gates@nopCommerce.com **********
+10/07/2025 03:26:23 PM: INFO: ********** Login Success **********
+10/07/2025 03:26:30 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_email for steve_gates@nopCommerce.com **********
+10/07/2025 03:26:36 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_email for nonexistentuser@example.com **********
+10/07/2025 03:26:40 PM: INFO: ********** Login Success **********
+10/07/2025 03:26:47 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_email for nonexistentuser@example.com **********
+10/07/2025 03:26:52 PM: INFO: ********** started TestCustomerSearch: test_search_multiple_customers **********
+10/07/2025 03:26:55 PM: INFO: ********** Login Success **********
+10/07/2025 03:27:02 PM: INFO: Checked search for steve_gates@nopCommerce.com (should_exist=True)
+10/07/2025 03:27:05 PM: INFO: Checked search for nonexistentuser@example.com (should_exist=False)
+10/07/2025 03:27:05 PM: INFO: ********** completed TestCustomerSearch: test_search_multiple_customers **********
+10/07/2025 03:27:10 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_first_last_name for Steve Gates **********
+10/07/2025 03:27:13 PM: INFO: ********** Login Success **********
+10/07/2025 03:27:21 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_first_last_name for Steve Gates **********
+10/07/2025 03:27:26 PM: INFO: ********** started TestCustomerSearch: test_search_customer_by_first_last_name for Nonexistent User **********
+10/07/2025 03:27:29 PM: INFO: ********** Login Success **********
+10/07/2025 03:27:36 PM: INFO: ********** completed TestCustomerSearch: test_search_customer_by_first_last_name for Nonexistent User **********
