@@ -60,6 +60,9 @@ A robust and extensible automation framework built primarily using **Pytest** an
    ```bash
    pytest --browser chrome --html=Reports/report.html
    ```
+   ```
+    pytest -s -v -m "sanity" --html=./Reports/report.html testCases --browser=Chrome
+    ```
 
 ---
 

@@ -21,6 +21,7 @@ login_data = get_login_data(excel_path, sheet_name="Sheet1")
 
 class TestLoginPageDataDriven:
     @pytest.mark.parametrize("username,password,exp", login_data)
+    @pytest.mark.regression
     def test_valid_login(self, driver, username, password, exp):
         logger.info(f"********** started TestLoginPage: test_login with {username} **********")
         flush_logger()

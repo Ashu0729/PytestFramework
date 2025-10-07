@@ -21,6 +21,7 @@ def flush_logger():
         handler.flush()
 
 class TestCustomerSearch:
+
     @pytest.mark.parametrize("search_email,should_exist",
          [
           ("steve_gates@nopCommerce.com", True),("nonexistentuser@example.com", False)
@@ -29,6 +30,8 @@ class TestCustomerSearch:
 
     # Test searching multiple customers/each email treated as separate test to ensure fresh state.
     # Browser closes and navigation happens for each test
+    @pytest.mark.regression
+    @pytest.mark.sanity
     def test001_search_customer_by_email(self, driver, search_email, should_exist):
         logger.info(f"********** started TestCustomerSearch: test_search_customer_by_email for {search_email} **********")
         flush_logger()
@@ -72,6 +75,7 @@ class TestCustomerSearch:
         flush_logger()
 
     # Test searching multiple customers in one test without closing the BROWSER
+    @pytest.mark.regression
     def test002_search_multiple_customers(self, driver):
         logger.info("********** started TestCustomerSearch: test_search_multiple_customers **********")
         flush_logger()
@@ -119,10 +123,13 @@ class TestCustomerSearch:
         logger.info("********** completed TestCustomerSearch: test_search_multiple_customers **********")
         flush_logger()
 
+
+
     @pytest.mark.parametrize("first_name,last_name,should_exist",
          [
           ("Steve", "Gates", True),("Nonexistent", "User", False)
          ])
+    @pytest.mark.regression
     def test003_search_customer_by_first_last_name(self, driver, first_name, last_name, should_exist):
         logger.info(f"********** started TestCustomerSearch: test_search_customer_by_first_last_name for {first_name} {last_name} **********")
         flush_logger()

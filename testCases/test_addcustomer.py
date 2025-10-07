@@ -22,7 +22,8 @@ def flush_logger():
         handler.flush()
 
 class TestAddCustomer:
-
+    @pytest.mark.regression
+    @pytest.mark.sanity
     def test_addCustomer(self, driver):
         logger.info(f"********** started TestAddCustomer: test_login **********")
         flush_logger()
